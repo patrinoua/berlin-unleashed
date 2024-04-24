@@ -5,6 +5,7 @@ export default function Home() {
         <div className='fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-black via-blue lg:static lg:size-auto lg:bg-none'></div>
       </div>
       <p className='text-4xl m-7'>BERLIN UNLEASHED.</p>
+      <p className='text-xl mb-5'>your underground guide for Berlin</p>
       <div
         className='my-30 h-1 w-80p border-t border-gray-300 dark:border-gray-100'
         style={{
@@ -25,7 +26,6 @@ export default function Home() {
           imageURL='/images/vektor.png'
           subtext={`Personalized suggestions according to your interests on the days you are visiting`}
         />
-
         <Option
           text='ART exhibitions'
           imageURL='/images/art.png'
@@ -65,8 +65,22 @@ export default function Home() {
         <Option
           text='Buy local art'
           imageURL='/images/local_art.png'
-          subtext={`Get a list of the best cinemas in Berlin and which movies they are playing`}
+          subtext={`Coming soon...`}
         />
+      </div>
+
+      <div
+        className='justify-center text-center text-pink-400  text-lg          
+'
+      >
+        Get in touch and order through the <br />
+        <p className='text-2xl underline'>
+          <a href='https://docs.google.com/forms/d/1ErBtkNQa3cH7jqcFPDNYzDkdQWbid_QSA3Ss-tqZT40/viewform?edit_requested=true'>
+            google form
+          </a>
+        </p>
+      </div>
+      <div className='justify-center text-center my-10'>
         <p>Impressium</p>
         <p>Contact</p>
       </div>
