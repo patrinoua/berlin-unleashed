@@ -31,12 +31,11 @@ export default function Home() {
         <Option
           text='ART exhibitions'
           imageURL='/images/art.png'
-          subtext={`Find out what's going on in your city`}
+          subtext={`Find out what's going on in the city`}
         />
-
         <Option
           text='Restaurants, bars'
-          imageURL='/images/map.png'
+          imageURL='/images/map1.png'
           subtext={`Get a list of all our restaurant and bar recommendations in berlin along
         with our favorite highlights`}
         />
