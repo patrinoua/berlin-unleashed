@@ -1,11 +1,9 @@
-import Image from 'next/image'
-
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-between bg-black p-4 text-white font-sans tracking-wide'>
-      {/* <div className='z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex'>
-        <div className='fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black  lg:static lg:size-auto lg:bg-none'></div>
-      </div> */}
+      <div className='z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex'>
+        <div className='fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-black via-blue lg:static lg:size-auto lg:bg-none'></div>
+      </div>
       <p className='text-4xl m-7'>BERLIN UNLEASHED.</p>
       <div
         className='my-30 h-1 w-80p border-t border-gray-300 dark:border-gray-100'
