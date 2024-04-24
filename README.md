@@ -1,8 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-
+```
+npm run dev
 ```
 
+```
 npm run build
 
 firebase deploy
@@ -10,12 +12,10 @@ firebase deploy
 ```
 
 - [ ] add favicon
-
-
-
+- [ ] on hover -> buy now / go to gallery
+- [ ] fix spacing for mobile
 
 ---
-
 
 ## Getting Started
 
